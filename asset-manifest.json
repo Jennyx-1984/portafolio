@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9c82da31.css",
+    "main.js": "/static/js/main.ba1006c2.js",
+    "static/media/wow.png": "/static/media/wow.bf381a33d0b1689d5745.png",
+    "static/media/Fartera.png": "/static/media/Fartera.9ad028371cb5f2e19d20.png",
+    "static/media/serietulia.png": "/static/media/serietulia.183675d22d6b89791b03.png",
+    "static/media/portafolio.png": "/static/media/portafolio.b49d272ba7edd9e885fc.png",
+    "static/media/murlocks.png": "/static/media/murlocks.38fd0ea65398694608c2.png",
+    "static/media/fotomia.png": "/static/media/fotomia.fe78534da9d8c12ff07a.png",
+    "static/media/fondo4.png": "/static/media/fondo4.018a2e238b3921c5c07b.png",
+    "static/media/ajax.png": "/static/media/ajax.e4bfaa89237d0e9fdbf5.png",
+    "static/media/canvas.png": "/static/media/canvas.d590b1dd3def9502fc16.png",
+    "static/media/React-icon.png": "/static/media/React-icon.8cf15fe9a546ffb69e65.png",
+    "static/media/tambores.png": "/static/media/tambores.e0f56b0965ef316ed120.png",
+    "static/media/isotopo.png": "/static/media/isotopo.973412b654fb102f4bcf.png",
+    "static/media/phaser.png": "/static/media/phaser.d1702915456b7a99ccc3.png",
+    "static/media/powerbutton.png": "/static/media/powerbutton.c4dd6e4743534e1f7034.png",
+    "static/media/wordpress.png": "/static/media/wordpress.674971ff9813409b6dae.png",
+    "static/media/java.png": "/static/media/java.861496090c9ef5b3bea4.png",
+    "index.html": "/index.html",
+    "main.9c82da31.css.map": "/static/css/main.9c82da31.css.map",
+    "main.ba1006c2.js.map": "/static/js/main.ba1006c2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c82da31.css",
+    "static/js/main.ba1006c2.js"
+  ]
+}
