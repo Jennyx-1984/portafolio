@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import styles from "../../stylesheets/RadialMenu.module.css";
-import Csharp from "../../assets/images/icons/c#.png";
+import Csharp from "../../assets/images/icons/csharp.png";
 import Css from "../../assets/images/icons/css.png";
 import Html from "../../assets/images/icons/html.png";
 import Java from "../../assets/images/icons/java.png";
