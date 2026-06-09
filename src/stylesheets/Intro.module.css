@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.presentacion_contenedor {
+  width: 100%;
+  height: 400px;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cabecera_saludo{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.contexto {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-left: 100px;
+}
+
+.texto_saludo {
+  font-size: 30px;
+  width: 100%;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  text-align: left;
+}
+
+.nombre {
+  color: red;
+  font-family: "Poppins", sans-serif;
+}
+
+.texto_profesion {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  font-size: 32px;
+}
+
+.texto {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+button {
+  font-family: "Space Mono", monospace;
+  font-weight: bold;
+  font-size: 400;
+}
+
+.badge{
+  width: 100%;
+}
+
+.avail_badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  background: rgba(29, 158, 117, 0.12);
+  border: 0.5px solid rgba(29, 158, 117, 0.28);
+  border-radius: 999px;
+  padding: 6px 14px;
+  font-size: 18px;
+  color: #5dcaa5;
+  font-weight: bold;
+  margin-top: 16px;
+  font-family: "Space Mono", Arial, Helvetica, sans-serif;
+  width: 500px;
+}
+
+.avail_dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #1d9e75;
+  flex-shrink: 0;
+  animation: blink 2s ease-in-out infinite;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.4;
+  }
+}
+
+.avatar{
+  margin: 0 auto;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .presentacion_contenedor {
+    width: 100%;
+    height: auto;
+    font-family: "Times New Roman", Times, serif;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+
+  .contexto {
+    padding-left: 0;
+    width: 90%;
+  }
+  .texto_saludo {
+    font-size: 20px;
+  }
+
+  .texto_profesion {
+    font-size: 12px;
+  }
+  .texto {
+    font-size: 12px;
+  }
+}

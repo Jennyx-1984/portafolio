@@ -1,0 +1,89 @@
+.frame_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+
+.orbit_wrap {
+  width: 220px;
+  height: 220px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.orbit_ring {
+  position: absolute;
+  width: 210px;
+  height: 210px;
+  border-radius: 50%;
+  border: 1px dashed rgba(127, 119, 221, 0.2);
+  animation: orbitSpin 10s linear infinite;
+}
+
+.orbit_ring::after {
+  content: "";
+  position: absolute;
+  top: -5px; 
+  left: 50%;
+  transform: translateX(-50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #7f77dd;
+  box-shadow: 0 0 8px #7f77dd;
+}
+
+.orbit_ring2 {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 0.5px solid rgba(93, 202, 165, 0.15);
+  animation: orbitSpin 6s linear infinite reverse;
+}
+
+.orbit_ring2::after {
+  content: "";
+  position: absolute;
+  top: -3.5px; 
+  left: 50%;
+  transform: translateX(-50%);
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #5dcaa5;
+  box-shadow: 0 0 6px #5dcaa5;
+}
+
+.orbit_img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: #1a1535;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
+  border: 2px solid rgba(127, 119, 221, 0.3);
+}
+
+@keyframes orbitSpin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.avatar {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: inherit;
+}
