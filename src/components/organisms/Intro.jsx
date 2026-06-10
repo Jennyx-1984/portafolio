@@ -31,13 +31,13 @@ function Intro() {
             loop
             style={{ color: "red", paddingBottom: "20px" }}
           />
-          <div className={styles.badge}>
-            <div className={styles.avail_badge}>
-              <span className={styles.avail_dot}></span>
-              {disponible
-                ? "Disponible para proyectos y trabajar"
-                : "Actualmente ocupada"}
-            </div>
+        </div>
+        <div className={styles.badge}>
+          <div className={styles.avail_badge}>
+            <span className={styles.avail_dot}></span>
+            {disponible
+              ? "Disponible para proyectos y trabajar"
+              : "Actualmente ocupada"}
           </div>
         </div>
       </div>
@@ -51,7 +51,7 @@ function Intro() {
         <ButtonCV />
       </div>
       <div className={styles.avatar}>
-      <AvatarFrame />
+        <AvatarFrame />
       </div>
     </div>
   );

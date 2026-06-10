@@ -7,7 +7,7 @@ import "../App.css";
 function Layout() {
   const [loading, setLoading] = useState(true);
   useEffect(() => {
-    const onContext = (e) => e.preventDefault();
+   const onContext = (e) => e.preventDefault();
     const onSelectStart = (e) => e.preventDefault();
     const onCopy = (e) => e.preventDefault();
     const onDragStart = (e) => e.preventDefault();
@@ -18,7 +18,8 @@ function Layout() {
         (e.ctrlKey && e.key === "u") ||
         (e.ctrlKey && e.shiftKey && e.key.toLowerCase() === "i") ||
         e.key === "F12"
-      ) {
+      ) 
+      {
         e.preventDefault();
       }
     };

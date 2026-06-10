@@ -9,7 +9,7 @@
   flex-wrap: wrap;
 }
 
-.cabecera_saludo{
+.cabecera_saludo {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -58,7 +58,8 @@ button {
   font-size: 400;
 }
 
-.badge{
+.badge {
+  padding-left:50px;
   width: 100%;
 }
 
@@ -97,7 +98,7 @@ button {
   }
 }
 
-.avatar{
+.avatar {
   margin: 0 auto;
 }
 
@@ -118,14 +119,38 @@ button {
     padding-left: 0;
     width: 90%;
   }
+
   .texto_saludo {
-    font-size: 20px;
+    font-size: 16px;
+    padding-left: 20px;
+    height: 80px;
   }
 
   .texto_profesion {
     font-size: 12px;
   }
+
   .texto {
     font-size: 12px;
+  }
+
+  .badge {
+    padding-left: 20px;
+    width: 100%;
+  }
+
+  .avail_badge {
+    width: 290px;
+  }
+
+  .avail_dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #1d9e75;
+    flex-shrink: 0;
+    animation: blink 2s ease-in-out infinite;
+    position: relative;
+    top: -12px;
   }
 }

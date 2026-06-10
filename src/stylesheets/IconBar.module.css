@@ -9,3 +9,13 @@
 .socialmedia {
   width: 50%;
 }
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .socialmedia {
+    width: 40%;
+  }
+
+  .menu_social {
+    margin-bottom: 50px;
+  }
+}

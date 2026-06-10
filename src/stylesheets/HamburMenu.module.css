@@ -1,6 +1,9 @@
 .menu_wrapper {
   position: relative;
   z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .hamburger_menu {
@@ -9,8 +12,8 @@
   justify-content: space-between;
   width: 35px;
   height: 25px;
-  cursor: pointer;
   z-index: 1010;
+  cursor: pointer;
 }
 
 .hamburger_menu .bar {
@@ -32,6 +35,10 @@
   transition:
     opacity 0.3s ease-in-out,
     visibility 0.3s;
+}
+.overlay.open {
+  visibility: visible;
+  opacity: 1;
 }
 
 .menu {
@@ -89,11 +96,51 @@
 }
 
 .menu_opciones {
-  padding-top: 10px;
+  padding-top: 80px;
+  align-items: center;
 }
 
 @media (min-width: 769px) {
   .menu_wrapper {
     visibility: hidden;
+  }
+}
+
+
+@media (max-width: 769px) {
+  .cabecera_contenedor {
+    width: 100%;
+    height: 300px;
+  }
+
+  .cabecera {
+    font-size: clamp(
+      40px,
+      calc(40px + (80 * ((100vw - 320px) / (720 - 320)))),
+      120px
+    );
+  }
+
+  .cabecera2 {
+    font-size: clamp(
+      16px,
+      calc(16px + (14 * ((100vw - 320px) / (720 - 320)))),
+      30px
+    );
+    position: relative;
+    top: -100px;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .menu_wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -90px;
   }
 }

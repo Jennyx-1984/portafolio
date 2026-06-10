@@ -60,6 +60,10 @@ h2 {
 }
 
 @media (min-width: 320px) and (max-width: 768px) {
+  .about_contenedor {
+    margin-top: -70px;
+  }
+
   h2 {
     font-size: 20px;
     padding-top: 10px;
@@ -79,5 +83,9 @@ h2 {
 
   .conocimientos_contenedor {
     width: 100%;
+  }
+
+  .chips_strip {
+    margin-bottom: 50px;
   }
 }
