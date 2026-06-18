@@ -61,8 +61,157 @@
   text-decoration: none;
 }
 
-.project_links:hover {
-  background-color: rgba(255, 255, 255, 0.12);
+.project_links {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+
+.btn_repo,
+.btn_deploy,
+.btn_wip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 14px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  border: none;
+  width: auto;
+  justify-content: center;
+  white-space: nowrap;
+}
+
+.btn_repo {
+  background: rgba(255, 255, 255, 0.08);
+  color: rgba(255, 255, 255, 0.7);
+  border: 0.5px solid rgba(255, 255, 255, 0.15);
+}
+.btn_repo:hover {
+  background: rgba(255, 255, 255, 0.14);
+  color: white;
+}
+
+.btn_deploy {
+  background: rgba(83, 74, 183, 0.25);
+  color: #afa9ec;
+  border: 0.5px solid rgba(127, 119, 221, 0.35);
+}
+.btn_deploy:hover {
+  background: rgba(83, 74, 183, 0.45);
+  color: white;
+}
+
+.btn_wip {
+  background: rgba(48, 47, 46, 0.12);
+  color: grey;
+  border: 0.5px solid rgba(186, 117, 23, 0.25);
+  font-family: inherit;
+}
+
+.btn_wip:hover {
+  background: rgba(186, 117, 23, 0.22);
+}
+
+.modal_overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  animation: fadeIn 0.2s ease;
+}
+
+.modal {
+  background: #1a1535;
+  border: 0.5px solid rgba(127, 119, 221, 0.25);
+  border-radius: 16px;
+  padding: 2rem;
+  width: 90%;
+  max-width: 360px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  animation: slideUp 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.modal_icon {
+  font-size: 36px;
+}
+
+.modal_title {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+.modal_msg {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.55);
+  line-height: 1.6;
+}
+
+.modal_repo_link {
+  font-size: 13px;
+  color: #afa9ec;
+  text-decoration: none;
+  border-bottom: 0.5px solid rgba(127, 119, 221, 0.4);
+  padding-bottom: 2px;
+  transition: color 0.2s ease;
+}
+.modal_repo_link:hover {
+  color: white;
+}
+
+.modal_close {
+  margin-top: 4px;
+  padding: 8px 24px;
+  border-radius: 999px;
+  border: 0.5px solid rgba(255, 255, 255, 0.15);
+  background: transparent;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: inherit;
+}
+.modal_close:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: white;
+}
+
+.svg {
+  margin-right: 10px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(20px) scale(0.95);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
 }
 
 @media (max-width: 768px) {
@@ -78,6 +227,16 @@
   }
 
   .project_links a {
+    margin-bottom: 10px;
+  }
+
+  .btn_repo,
+  .btn_deploy,
+  .btn_wip {
+    height: 30px;
+  }
+
+  .btn_wip {
     margin-bottom: 10px;
   }
 }

@@ -13,7 +13,7 @@ function IconBar() {
           <img
             src={require("../../assets/images/icons/Linkedin.png")}
             alt="Linkedin"
-            className="socialmedia"
+            className={styles.socialmedia}
           />
         </a>
       </nav>

@@ -1,0 +1,98 @@
+.paragraph_GitHub {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 50px;
+}
+
+.more {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  width: 100%;
+}
+
+.github_wrap {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.github_ring {
+  position: absolute;
+  inset: -6px;
+  border-radius: 50%;
+  border: 2.5px solid transparent;
+  background: conic-gradient(#7F77DD, #5DCAA5, #a875ec, #ff6b7c, #7F77DD) border-box;
+  -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
+  opacity: 0;
+  transition: opacity 0.35s ease;
+  animation: spinRing 3s linear infinite;
+}
+
+@keyframes spinRing {
+  to { transform: rotate(360deg); }
+}
+
+.repository {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  position: relative;
+  z-index: 2;
+  transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.github_label {
+  font-size: 12px;
+  font-family: monospace;
+  letter-spacing: 1.5px;
+  color: transparent;
+  transition: all 0.3s ease 0.05s;
+  transform: translateY(-4px);
+  white-space: nowrap;
+}
+
+.github_underline {
+  width: 0%;
+  height: 1px;
+  background: linear-gradient(90deg, #7F77DD, #5DCAA5);
+  transition: width 0.35s ease 0.1s;
+  border-radius: 1px;
+}
+
+.particle {
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.45s cubic-bezier(0.34, 1.56, 0.64, 1);
+  z-index: 1;
+}
+
+.github_wrap:hover .github_ring { opacity: 1; }
+.github_wrap:hover .repository { transform: translateY(-8px) rotate(8deg); }
+.github_wrap:hover .github_label { color: #AFA9EC; transform: translateY(0); }
+.github_wrap:hover .github_underline { width: 100%; }
+
+.github_wrap:hover .p1 { opacity: 1; transform: translate(calc(-50% - 42px), calc(-50% - 38px)); background: #7F77DD; }
+.github_wrap:hover .p2 { opacity: 1; transform: translate(calc(-50% + 38px), calc(-50% - 42px)); background: #5DCAA5; transition-delay: 0.04s; }
+.github_wrap:hover .p3 { opacity: 1; transform: translate(calc(-50% + 48px), calc(-50% + 20px)); background: #a875ec; transition-delay: 0.08s; }
+.github_wrap:hover .p4 { opacity: 1; transform: translate(calc(-50% + 20px), calc(-50% + 46px)); background: #ff6b7c; transition-delay: 0.06s; }
+.github_wrap:hover .p5 { opacity: 1; transform: translate(calc(-50% - 44px), calc(-50% + 24px)); background: #5DCAA5; transition-delay: 0.02s; }
+.github_wrap:hover .p6 { opacity: 1; transform: translate(calc(-50% - 10px), calc(-50% - 50px)); background: #AFA9EC; transition-delay: 0.1s; }
+.github_wrap:hover .p7 { opacity: 1; transform: translate(calc(-50% + 50px), calc(-50% - 10px)); background: #ff6b7c; transition-delay: 0.03s; }
+.github_wrap:hover .p8 { opacity: 1; transform: translate(calc(-50% - 36px), calc(-50% - 36px)); background: #7F77DD; width: 5px; height: 5px; transition-delay: 0.07s; }

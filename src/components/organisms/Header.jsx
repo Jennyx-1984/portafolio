@@ -10,6 +10,7 @@ function Header() {
     { label: "Sobre mi", icon: "info", path: "/about" },
     { label: "Contacto", icon: "email", path: "/contact" },
     { label: "Proyectos", icon: "web", path: "/projects" },
+    { label: "Logros", icon: "award", path: "/logros" },
   ];
 
   return (

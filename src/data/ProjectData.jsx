@@ -27,155 +27,118 @@ export const projects = [
     image: Fartera,
     tech: [
       { name: "HTML", icon: HtmlBar },
-      { name: "CSS", icon: CssBar  },
+      { name: "CSS", icon: CssBar },
       { name: "Javascript", icon: JavascriptBar }
     ],
-    link: "https://jennyx-1984.github.io/fartera/index.html"
+    repo: "https://github.com/Jennyx-1984/fartera",
+    deploy: "https://jennyx-1984.github.io/fartera/index.html"
   },
   {
     id: 2,
     title: "La SerieTúlia",
     description: "Página web de series",
     image: Serietulia,
-    tech: [{ name: "HTML", icon: HtmlBar },
-      { name: "CSS", icon: CssBar  },
-      { name: "Javascript", icon: JavascriptBar }],
-    link: "https://jennyx-1984.github.io/serietulia/index.html"
+    tech: [{ name: "HTML", icon: HtmlBar }, { name: "CSS", icon: CssBar }, { name: "Javascript", icon: JavascriptBar }],
+    repo: "https://github.com/Jennyx-1984/serietulia",
+    deploy: "https://jennyx-1984.github.io/serietulia/index.html"
   },
   {
     id: 3,
     title: "Tabla de Isotopos",
     description: "Filtros para isótopos. Cambia los elementos según el filtro que escojas.",
     image: Isotopo,
-    tech: [{ name: "HTML", icon: HtmlBar },
-      { name: "CSS", icon: CssBar  },
-      { name: "Javascript", icon: JavascriptBar }],
-    link: "https://jennyx-1984.github.io/isotopo/"
+    tech: [{ name: "HTML", icon: HtmlBar }, { name: "CSS", icon: CssBar }, { name: "Javascript", icon: JavascriptBar }],
+    repo: "https://github.com/Jennyx-1984/isotopo",
+    deploy: "https://jennyx-1984.github.io/isotopo/"
   },
   {
     id: 4,
-    title: "Servidor WoW Custom",
-    description: "WoW 3.3.5 PvE blizzlike con bots y transfiguración.",
+    title: "Template para Servidores WoW",
+    description: "Template para servidores custom de World of Warcraft.",
     image: Wow,
-    tech: [{ name: "HTML", icon: HtmlBar },
-      { name: "CSS", icon: CssBar  },
-      { name: "Javascript", icon: JavascriptBar }],
-    link: "https://jennyx-1984.github.io/SelectMenuWow/"
+    tech: [{ name: "HTML", icon: HtmlBar }, { name: "CSS", icon: CssBar }, { name: "Javascript", icon: JavascriptBar }],
+    repo: "https://github.com/Jennyx-1984/SelectMenuWow",
+    deploy: "https://jennyx-1984.github.io/SelectMenuWow/"
   },
   {
     id: 5,
-    title: "Caza Murlocks",
-    description: "Minijuego para página web en Phaser.",
+    title: "Caza Murlocks (en actualización)",
+    description: "Minijuego para página web en Phaser V1.0. Proximamente se subirá la V2.0",
     image: Murlocks,
-    tech: [{ name: "HTML", icon: HtmlBar },
-      { name: "CSS", icon: CssBar  },
-      { name: "Javascript", icon: JavascriptBar },
-      { name: "Phaser", icon: Phaser}],
-    link: "https://jennyx-1984.github.io/JuegoMurlocks/"
+    tech: [{ name: "HTML", icon: HtmlBar }, { name: "CSS", icon: CssBar }, { name: "Javascript", icon: JavascriptBar }, { name: "Phaser", icon: Phaser }],
+    repo: "https://github.com/Jennyx-1984/JuegoMurlocks",
+    deploy: "https://jennyx-1984.github.io/JuegoMurlocks/"
   },
   {
-   id: 6,
+    id: 6,
     title: "Tambores Javascript",
     description: "Bateria en teclado.",
     image: Tambores,
-    tech: [{ name: "HTML", icon: HtmlBar },
-      { name: "CSS", icon: CssBar  },
-      { name: "Javascript", icon: JavascriptBar }],
-    link: "https://jennyx-1984.github.io/tambores/"
+    tech: [{ name: "HTML", icon: HtmlBar }, { name: "CSS", icon: CssBar }, { name: "Javascript", icon: JavascriptBar }],
+    repo: "https://github.com/Jennyx-1984/tambores",
+    deploy: "https://jennyx-1984.github.io/tambores/"
   },
   {
-   id: 7,
+    id: 7,
     title: "Canvas",
     description: "Paint con Canvas.",
     image: Canvas,
-    tech: [{ name: "HTML", icon: HtmlBar },
-      { name: "CSS", icon: CssBar  },
-      { name: "Javascript", icon: JavascriptBar }],
-    link: "https://jennyx-1984.github.io/canvas/"
+    tech: [{ name: "HTML", icon: HtmlBar }, { name: "CSS", icon: CssBar }, { name: "Javascript", icon: JavascriptBar }],
+    repo: "https://github.com/Jennyx-1984/canvas",
+    deploy: "https://jennyx-1984.github.io/canvas/"
   },
   {
-   id: 8,
+    id: 8,
     title: "Listado Ajax",
     description: "Listado de ciudades con Ajax.",
     image: Ajax,
-    tech: [{ name: "HTML", icon: HtmlBar },
-      { name: "CSS", icon: CssBar  },
-      { name: "Javascript", icon: JavascriptBar }],
-    link: "https://jennyx-1984.github.io/ListadoAjax/"
+    tech: [{ name: "HTML", icon: HtmlBar }, { name: "CSS", icon: CssBar }, { name: "Javascript", icon: JavascriptBar }],
+    repo: "https://github.com/Jennyx-1984/ListadoAjax",
+    deploy: "https://jennyx-1984.github.io/ListadoAjax/"
   },
   {
-   id: 9,
+    id: 9,
     title: "Portfolio",
     description: "Proyecto de Portfolio.",
     image: Portafolio,
-    tech: [{ name: "HTML", icon: HtmlBar },
-      { name: "CSS", icon: CssBar  },
-      { name: "Javascript", icon: JavascriptBar },
-      { name: "React", icon: ReactIcon}],
-    link: "/"
+    tech: [{ name: "HTML", icon: HtmlBar }, { name: "CSS", icon: CssBar }, { name: "Javascript", icon: JavascriptBar }, { name: "React", icon: ReactIcon }],
+    repo: "https://github.com/Jennyx-1984/portafolio",
+    deploy: "/"
   },
- /*{
-   id: 10,
-    title: "GPS",
-    description: "Proyecto de GPS aun en construcción.",
-    image:Gps ,
-    tech: [{ name: "HTML", icon: HtmlBar },
-      { name: "CSS", icon: CssBar  },
-      { name: "Javascript", icon: JavascriptBar },
-      { name: "Geoapify", icon: Geoapify}],
-    link: "/"
-  },*/
-
   {
-    id:10,
-    title:"Velvet Sakura",
+    id: 10,
+    title: "Velvet Sakura",
     description: "Proyecto de tirada de cartas de Card Captor Sakura con API REST",
     image: Sakura,
-    tech:[{name:"HTML", icon:HtmlBar},
-      {name:"CSS", icon:CssBar},
-      {name:"Javascript", icon:JavascriptBar},
-    ],
-    link:"https://github.com/Jennyx-1984/velvet-Sakura"
+    tech: [{ name: "HTML", icon: HtmlBar }, { name: "CSS", icon: CssBar }, { name: "Javascript", icon: JavascriptBar }],
+    repo: "https://github.com/Jennyx-1984/velvet-Sakura",
+    deploy: ""
   },
-
   {
-    id:11,
-    title:"Sound Wave",
-    description:"Proyecto de App tipo Spotify para música en streaming",
+    id: 11,
+    title: "Sound Wave",
+    description: "Proyecto de App tipo Spotify para música en streaming",
     image: SoundWave,
-    tech:[{name:"HTML", icon:HtmlBar},
-      {name:"CSS", icon:CssBar},
-      {name:"JavaScript", icon:JavascriptBar},
-      {name:"React", icon:ReactIcon}
-    ],
-    link:"https://github.com/Jennyx-1984/sound-wave"
+    tech: [{ name: "HTML", icon: HtmlBar }, { name: "CSS", icon: CssBar }, { name: "JavaScript", icon: JavascriptBar }, { name: "React", icon: ReactIcon }],
+    repo: "https://github.com/Jennyx-1984/sound-wave",
+    deploy: ""
   },
   {
-    id:12,
-    title:"Code Fighters",
-    description:"Proyecto de SPA, juego de lucha modo single. Está por implementar el coop",
-    image:CodeFighters,
-    tech:[{name:"HTML", icon:HtmlBar},
-      {name:"CSS", icon:CssBar},
-      {name:"JavaScript", icon:JavascriptBar},
-      {name:"SpringBoot", icon:SpringBoot},
-      {name:"React", icon:ReactIcon},
-      {name:"Phaser", icon:Phaser},
-    ],
-    link:"https://github.com/FemcodeFighters"
+    id: 12,
+    title: "Code Fighters",
+    description: "Proyecto de SPA, juego de lucha modo single. Está por implementar el coop",
+    image: CodeFighters,
+    tech: [{ name: "HTML", icon: HtmlBar }, { name: "CSS", icon: CssBar }, { name: "JavaScript", icon: JavascriptBar }, { name: "SpringBoot", icon: SpringBoot }, { name: "React", icon: ReactIcon }, { name: "Phaser", icon: Phaser }],
+    repo: "https://github.com/FemcodeFighters",
+    deploy: ""
   },
   {
-    id:13,
-    title:"Code Crafters",
-    description:"Proyecto de comunidad de eventos tecnológicos tipo red social con creación de tickets y pagos. Servicio SMTP para avisos automatizados al email del usuario.",
-    image:CodeCrafters,
-    tech:[
-      {name:"HTML", icon:HtmlBar},
-      {name:"JavaScript", icon:JavascriptBar},
-      {name:"CSS", icon:CssBar},
-      {name:"React", icon:ReactIcon},
-      {name:"SpringBoot", icon:SpringBoot}
-    ],
-    link:"https://github.com/Code-Crafters-Events"
+    id: 13,
+    title: "Code Crafters",
+    description: "Proyecto de comunidad de eventos tecnológicos tipo red social con creación de tickets y pagos.",
+    image: CodeCrafters,
+    tech: [{ name: "HTML", icon: HtmlBar }, { name: "JavaScript", icon: JavascriptBar }, { name: "CSS", icon: CssBar }, { name: "React", icon: ReactIcon }, { name: "SpringBoot", icon: SpringBoot }],
+    repo: "https://github.com/Code-Crafters-Events",
+    deploy: ""
   }
 ];

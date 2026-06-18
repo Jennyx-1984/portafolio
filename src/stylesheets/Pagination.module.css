@@ -1,0 +1,87 @@
+.pagination_wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  margin-top: 2rem;
+}
+
+.page_info {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.25);
+  font-family: monospace;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.page_btn {
+  width: 38px;
+  height: 38px;
+  border-radius: 8px;
+  border: 0.5px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.04);
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  font-family: monospace;
+}
+
+.page_btn:hover {
+  border-color: rgba(127, 119, 221, 0.4);
+  background: rgba(127, 119, 221, 0.1);
+  color: #afa9ec;
+}
+
+.page_btn.active,
+.page_btn:global(.active) {
+  background: #534ab7;
+  border-color: #534ab7;
+  color: white;
+  font-weight: bold;
+}
+
+.active {
+  background: #534ab7;
+  border-color: #534ab7;
+  color: white;
+  font-weight: bold;
+}
+
+.arrow {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.arrow:hover {
+  color: #afa9ec;
+}
+
+.disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.page_dots {
+  color: rgba(255, 255, 255, 0.25);
+  font-size: 14px;
+  padding: 0 4px;
+  letter-spacing: 2px;
+}
+
+@media (max-width: 768px) {
+  .page_btn {
+    width: 32px;
+    height: 32px;
+    font-size: 12px;
+  }
+}

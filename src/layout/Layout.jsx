@@ -3,6 +3,7 @@ import { Outlet } from "react-router-dom";
 import Header from "../components/organisms/Header";
 import Loading from "../components/organisms/Loading";
 import "../App.css";
+import ScrollToTop from "../components/atoms/ScrollToTop";
 
 function Layout() {
   const [loading, setLoading] = useState(true);
@@ -55,6 +56,7 @@ function Layout() {
       <main>
         <Outlet />
       </main>
+      <ScrollToTop />
     </div>
   );
 }

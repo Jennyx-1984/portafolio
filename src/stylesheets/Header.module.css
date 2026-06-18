@@ -1,7 +1,8 @@
 .cabecera_contenedor {
-  width: 100vh;
+  width: 120vh;
   height: 350px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;

@@ -5,6 +5,7 @@ import Projects from "../pages/Portfolio";
 import Contact from "../pages/Contacto";
 import NotFound from "../pages/NotFound";
 import About from "../pages/About";
+import Logros from "../pages/Logros";
 
 export const router = createBrowserRouter([
   {
@@ -34,6 +35,10 @@ export const router = createBrowserRouter([
       { 
         path: "*", 
         Component: NotFound
+      },
+      {
+        path:"logros",
+        Component: Logros
       },
     ],
   },

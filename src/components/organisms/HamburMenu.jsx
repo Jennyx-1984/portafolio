@@ -13,13 +13,28 @@ function HamburMenu() {
 
   return (
     <div className={styles.menu_wrapper}>
-      <div
-        className={`${styles.hamburger_menu} ${isOpen ? styles.open : ""}`}
-        onClick={toggleMenu}
-      >
-        <span className={styles.bar}></span>
-        <span className={styles.bar}></span>
-        <span className={styles.bar}></span>
+      <div className={styles.hamburger_menu} onClick={toggleMenu}>
+        {isOpen ? (
+          <svg
+            className={styles.close_icon}
+            width="28"
+            height="28"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="white"
+            strokeWidth="2.5"
+            strokeLinecap="round"
+          >
+            <line x1="18" y1="6" x2="6" y2="18" />
+            <line x1="6" y1="6" x2="18" y2="18" />
+          </svg>
+        ) : (
+          <>
+            <span className={styles.bar}></span>
+            <span className={styles.bar}></span>
+            <span className={styles.bar}></span>
+          </>
+        )}
       </div>
 
       <div
@@ -47,6 +62,11 @@ function HamburMenu() {
           <li>
             <Link to="/projects" onClick={closeMenu}>
               Proyectos
+            </Link>
+          </li>
+          <li>
+            <Link to="/logros" onClick={closeMenu}>
+              Logros
             </Link>
           </li>
         </ul>
