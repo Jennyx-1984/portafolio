@@ -22,25 +22,22 @@ function About() {
       <h2>Sobre mi</h2>;
       <div className={styles.about_info}>
         <p className={styles.about}>
-          Soy
-          <span className={styles.nombre} style={{ whiteSpace: "pre" }}>
-            Jennifer
-          </span>
-          , full stack developer junior con base en Barcelona. He hecho un
+          Mi nombre es Jennifer, soy full stack developer junior con base en Barcelona. He hecho un
           cambio de rumbo profesional porque me apasiona la tecnología y
           sobretodo transformar ideas en interfaces intuitivas y visualmente
-          atractivas. Trabajo principalmente con React y Spring Boot pero me adapto
+          atractivas.
+          Trabajo principalmente con React y Spring Boot pero me adapto
           a cualquier otro lenguaje de programación (antiguamente me apasionaba C# y PHP), 
           y disfruto cada etapa del proceso: desde el diseño hasta la implementación. 
           Me dedico a realizar proyectos en PHASER, aplicaciones web, y páginas con 
           diseño intuitivo, accesiblidad, y responsive. Aparte colaboro con proyectos 
-          sin ánimo de
-          lucro en servidores de videojuegos MMORPG. Después de formarme en desarrollo web y
+          sin ánimo de lucro en servidores de videojuegos MMORPG.
+          Después de formarme en desarrollo web y
           trabajar en varios proyectos personales, descubrí que lo que más me
           motiva es crear experiencias digitales que realmente conecten con las
           personas. Me encanta aprender nuevas tecnologías, cuidar los detalles
-          y mantenerme al día con las tendencias del sector. Mi experiencia ha
-          sido como becaria realizando una página web en la Asociación de
+          y mantenerme al día con las tendencias del sector.
+          Mi experiencia ha sido como becaria realizando una página web en la Asociación de
           Celíacos de Catalunya, un programa de contabilidad para una escuela de
           idiomas, y ayudar a mejorar y actualizar los contenidos de las webs
           del Centro de Estudios Africanos e Interculturales en Wordpress.

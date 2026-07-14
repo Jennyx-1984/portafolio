@@ -18,6 +18,8 @@ import SoundWave from "../assets/images/homeSS.png";
 import CodeFighters from "../assets/images/codefighters.jpg";
 import SpringBoot from "../assets/images/icons/springboot.png";
 import CodeCrafters from "../assets/images/codecrafters.png";
+import PHP from "../assets/images/icons/php.png";
+import MySQL from "../assets/images/icons/sql.png";
 
 export const projects = [
   {
@@ -62,12 +64,18 @@ export const projects = [
   },
   {
     id: 5,
-    title: "Caza Murlocks (en actualización)",
-    description: "Minijuego para página web en Phaser V1.0. Proximamente se subirá la V2.0",
+    title: "Caza Murlocks",
+    description: "Minijuego para página web en Phaser V2.0.",
     image: Murlocks,
-    tech: [{ name: "HTML", icon: HtmlBar }, { name: "CSS", icon: CssBar }, { name: "Javascript", icon: JavascriptBar }, { name: "Phaser", icon: Phaser }],
+    tech: [{ name: "HTML", icon: HtmlBar }, 
+      { name: "CSS", icon: CssBar }, 
+      { name: "Javascript", icon: JavascriptBar }, 
+      { name: "Phaser", icon: Phaser },
+      {name:"PHP",icon:PHP},
+      {name:"MySQL",icon:MySQL}
+    ],
     repo: "https://github.com/Jennyx-1984/JuegoMurlocks",
-    deploy: "https://jennyx-1984.github.io/JuegoMurlocks/"
+    deploy: "http://murlocksragna.gamer.free/backend/login.php"
   },
   {
     id: 6,
@@ -107,7 +115,7 @@ export const projects = [
   },
   {
     id: 10,
-    title: "Velvet Sakura",
+    title: "Velvet Sakura (actualizando y corrigiendo bugs)",
     description: "Proyecto de tirada de cartas de Card Captor Sakura con API REST",
     image: Sakura,
     tech: [{ name: "HTML", icon: HtmlBar }, { name: "CSS", icon: CssBar }, { name: "Javascript", icon: JavascriptBar }],
@@ -116,7 +124,7 @@ export const projects = [
   },
   {
     id: 11,
-    title: "Sound Wave",
+    title: "Sound Wave (Próximas actualizaciones)",
     description: "Proyecto de App tipo Spotify para música en streaming",
     image: SoundWave,
     tech: [{ name: "HTML", icon: HtmlBar }, { name: "CSS", icon: CssBar }, { name: "JavaScript", icon: JavascriptBar }, { name: "React", icon: ReactIcon }],
@@ -125,7 +133,7 @@ export const projects = [
   },
   {
     id: 12,
-    title: "Code Fighters",
+    title: "Code Fighters (próximas actualizaciones)",
     description: "Proyecto de SPA, juego de lucha modo single. Está por implementar el coop",
     image: CodeFighters,
     tech: [{ name: "HTML", icon: HtmlBar }, { name: "CSS", icon: CssBar }, { name: "JavaScript", icon: JavascriptBar }, { name: "SpringBoot", icon: SpringBoot }, { name: "React", icon: ReactIcon }, { name: "Phaser", icon: Phaser }],
@@ -134,7 +142,7 @@ export const projects = [
   },
   {
     id: 13,
-    title: "Code Crafters",
+    title: "Code Crafters (próximas actualizaciones)",
     description: "Proyecto de comunidad de eventos tecnológicos tipo red social con creación de tickets y pagos.",
     image: CodeCrafters,
     tech: [{ name: "HTML", icon: HtmlBar }, { name: "JavaScript", icon: JavascriptBar }, { name: "CSS", icon: CssBar }, { name: "React", icon: ReactIcon }, { name: "SpringBoot", icon: SpringBoot }],
