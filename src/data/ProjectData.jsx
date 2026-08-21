@@ -124,16 +124,16 @@ export const projects = [
     image: Sakura,
     tech: [{ name: "HTML", icon: HtmlIcon }, { name: "CSS", icon: CssIcon }, { name: "Javascript", icon: JavascriptIcon },{ name: "React", icon: ReactIcon },{name:"Springboot", icon:SpringBoot},{name:"PostgreSQL",icon:PostgreSQL}],
     repo: "https://github.com/Jennyx-1984/velvet-Sakura",
-    deploy: "velvet-front-navy.vercel.app"
+    deploy: "https://velvet-front-navy.vercel.app"
   },
   {
     id: 11,
-    title: "Sound Wave (Próximas actualizaciones)",
-    description: "Proyecto de App tipo Spotify para música en streaming",
+    title: "Sound Wave",
+    description: "Proyecto de App tipo Spotify para música en streaming (sólo front con JSON Server)",
     image: SoundWave,
     tech: [{ name: "HTML", icon: HtmlIcon }, { name: "CSS", icon: CssIcon }, { name: "JavaScript", icon: JavascriptIcon }, { name: "React", icon: ReactIcon }],
     repo: "https://github.com/Jennyx-1984/sound-wave",
-    deploy: ""
+    deploy: "https://mysound-wave.netlify.app/"
   },
   {
     id: 12,
