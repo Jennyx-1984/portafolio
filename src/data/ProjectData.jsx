@@ -20,6 +20,10 @@ import SpringBoot from "../assets/images/icons/springboot.png";
 import CodeCrafters from "../assets/images/codecrafters.png";
 import PHP from "../assets/images/icons/php.png";
 import MySQL from "../assets/images/icons/sql.png";
+import CssIcon from "../assets/images/icons/css.png";
+import HtmlIcon from "../assets/images/icons/html.png";
+import JavascriptIcon from "../assets/images/icons/javascript.png";
+import PostgreSQL from "../assets/images/icons/postgresql.png";
 
 export const projects = [
   {
@@ -28,9 +32,9 @@ export const projects = [
     description: "Página web de la Fartera.",
     image: Fartera,
     tech: [
-      { name: "HTML", icon: HtmlBar },
-      { name: "CSS", icon: CssBar },
-      { name: "Javascript", icon: JavascriptBar }
+      { name: "HTML", icon: HtmlIcon },
+      { name: "CSS", icon: CssIcon },
+      { name: "Javascript", icon: JavascriptIcon }
     ],
     repo: "https://github.com/Jennyx-1984/fartera",
     deploy: "https://jennyx-1984.github.io/fartera/index.html"
@@ -40,7 +44,7 @@ export const projects = [
     title: "La SerieTúlia",
     description: "Página web de series",
     image: Serietulia,
-    tech: [{ name: "HTML", icon: HtmlBar }, { name: "CSS", icon: CssBar }, { name: "Javascript", icon: JavascriptBar }],
+    tech: [{ name: "HTML", icon: HtmlIcon }, { name: "CSS", icon: CssIcon }, { name: "Javascript", icon: JavascriptIcon }],
     repo: "https://github.com/Jennyx-1984/serietulia",
     deploy: "https://jennyx-1984.github.io/serietulia/index.html"
   },
@@ -49,7 +53,7 @@ export const projects = [
     title: "Tabla de Isotopos",
     description: "Filtros para isótopos. Cambia los elementos según el filtro que escojas.",
     image: Isotopo,
-    tech: [{ name: "HTML", icon: HtmlBar }, { name: "CSS", icon: CssBar }, { name: "Javascript", icon: JavascriptBar }],
+    tech: [{ name: "HTML", icon: HtmlIcon }, { name: "CSS", icon: CssIcon }, { name: "Javascript", icon: JavascriptIcon }],
     repo: "https://github.com/Jennyx-1984/isotopo",
     deploy: "https://jennyx-1984.github.io/isotopo/"
   },
@@ -58,7 +62,7 @@ export const projects = [
     title: "Template para Servidores WoW",
     description: "Template para servidores custom de World of Warcraft.",
     image: Wow,
-    tech: [{ name: "HTML", icon: HtmlBar }, { name: "CSS", icon: CssBar }, { name: "Javascript", icon: JavascriptBar }],
+    tech: [{ name: "HTML", icon: HtmlIcon }, { name: "CSS", icon: CssIcon }, { name: "Javascript", icon: JavascriptIcon }],
     repo: "https://github.com/Jennyx-1984/SelectMenuWow",
     deploy: "https://jennyx-1984.github.io/SelectMenuWow/"
   },
@@ -67,9 +71,9 @@ export const projects = [
     title: "Caza Murlocks",
     description: "Minijuego para página web en Phaser V2.0.",
     image: Murlocks,
-    tech: [{ name: "HTML", icon: HtmlBar }, 
-      { name: "CSS", icon: CssBar }, 
-      { name: "Javascript", icon: JavascriptBar }, 
+    tech: [{ name: "HTML", icon: HtmlIcon }, 
+      { name: "CSS", icon: CssIcon }, 
+      { name: "Javascript", icon: JavascriptIcon }, 
       { name: "Phaser", icon: Phaser },
       {name:"PHP",icon:PHP},
       {name:"MySQL",icon:MySQL}
@@ -82,7 +86,7 @@ export const projects = [
     title: "Tambores Javascript",
     description: "Bateria en teclado.",
     image: Tambores,
-    tech: [{ name: "HTML", icon: HtmlBar }, { name: "CSS", icon: CssBar }, { name: "Javascript", icon: JavascriptBar }],
+    tech: [{ name: "HTML", icon: HtmlIcon }, { name: "CSS", icon: CssIcon }, { name: "Javascript", icon: JavascriptIcon }],
     repo: "https://github.com/Jennyx-1984/tambores",
     deploy: "https://jennyx-1984.github.io/tambores/"
   },
@@ -91,7 +95,7 @@ export const projects = [
     title: "Canvas",
     description: "Paint con Canvas.",
     image: Canvas,
-    tech: [{ name: "HTML", icon: HtmlBar }, { name: "CSS", icon: CssBar }, { name: "Javascript", icon: JavascriptBar }],
+    tech: [{ name: "HTML", icon: HtmlIcon }, { name: "CSS", icon: CssIcon }, { name: "Javascript", icon: JavascriptIcon }],
     repo: "https://github.com/Jennyx-1984/canvas",
     deploy: "https://jennyx-1984.github.io/canvas/"
   },
@@ -100,7 +104,7 @@ export const projects = [
     title: "Listado Ajax",
     description: "Listado de ciudades con Ajax.",
     image: Ajax,
-    tech: [{ name: "HTML", icon: HtmlBar }, { name: "CSS", icon: CssBar }, { name: "Javascript", icon: JavascriptBar }],
+    tech: [{ name: "HTML", icon: HtmlIcon }, { name: "CSS", icon: CssIcon }, { name: "Javascript", icon: JavascriptIcon }],
     repo: "https://github.com/Jennyx-1984/ListadoAjax",
     deploy: "https://jennyx-1984.github.io/ListadoAjax/"
   },
@@ -109,25 +113,25 @@ export const projects = [
     title: "Portfolio",
     description: "Proyecto de Portfolio.",
     image: Portafolio,
-    tech: [{ name: "HTML", icon: HtmlBar }, { name: "CSS", icon: CssBar }, { name: "Javascript", icon: JavascriptBar }, { name: "React", icon: ReactIcon }],
+    tech: [{ name: "HTML", icon: HtmlIcon }, { name: "CSS", icon: CssIcon }, { name: "Javascript", icon: JavascriptIcon }, { name: "React", icon: ReactIcon }],
     repo: "https://github.com/Jennyx-1984/portafolio",
     deploy: "/"
   },
   {
     id: 10,
-    title: "Velvet Sakura (actualizando y corrigiendo bugs)",
-    description: "Proyecto de tirada de cartas de Card Captor Sakura con API REST",
+    title: "Velvet Sakura",
+    description: "Proyecto de tirada de cartas de Card Captor Sakura con API REST. Deploy en Render (back y BBDD) y Vercel (front) ",
     image: Sakura,
-    tech: [{ name: "HTML", icon: HtmlBar }, { name: "CSS", icon: CssBar }, { name: "Javascript", icon: JavascriptBar }],
+    tech: [{ name: "HTML", icon: HtmlIcon }, { name: "CSS", icon: CssIcon }, { name: "Javascript", icon: JavascriptIcon },{ name: "React", icon: ReactIcon },{name:"Springboot", icon:SpringBoot},{name:"PostgreSQL",icon:PostgreSQL}],
     repo: "https://github.com/Jennyx-1984/velvet-Sakura",
-    deploy: ""
+    deploy: "velvet-front-navy.vercel.app"
   },
   {
     id: 11,
     title: "Sound Wave (Próximas actualizaciones)",
     description: "Proyecto de App tipo Spotify para música en streaming",
     image: SoundWave,
-    tech: [{ name: "HTML", icon: HtmlBar }, { name: "CSS", icon: CssBar }, { name: "JavaScript", icon: JavascriptBar }, { name: "React", icon: ReactIcon }],
+    tech: [{ name: "HTML", icon: HtmlIcon }, { name: "CSS", icon: CssIcon }, { name: "JavaScript", icon: JavascriptIcon }, { name: "React", icon: ReactIcon }],
     repo: "https://github.com/Jennyx-1984/sound-wave",
     deploy: ""
   },
@@ -136,7 +140,7 @@ export const projects = [
     title: "Code Fighters (próximas actualizaciones)",
     description: "Proyecto de SPA, juego de lucha modo single. Está por implementar el coop",
     image: CodeFighters,
-    tech: [{ name: "HTML", icon: HtmlBar }, { name: "CSS", icon: CssBar }, { name: "JavaScript", icon: JavascriptBar }, { name: "SpringBoot", icon: SpringBoot }, { name: "React", icon: ReactIcon }, { name: "Phaser", icon: Phaser }],
+    tech: [{ name: "HTML", icon: HtmlIcon }, { name: "CSS", icon: CssIcon }, { name: "JavaScript", icon: JavascriptIcon }, { name: "SpringBoot", icon: SpringBoot }, { name: "React", icon: ReactIcon }, { name: "Phaser", icon: Phaser }],
     repo: "https://github.com/FemcodeFighters",
     deploy: ""
   },
@@ -145,7 +149,7 @@ export const projects = [
     title: "Code Crafters (próximas actualizaciones)",
     description: "Proyecto de comunidad de eventos tecnológicos tipo red social con creación de tickets y pagos.",
     image: CodeCrafters,
-    tech: [{ name: "HTML", icon: HtmlBar }, { name: "JavaScript", icon: JavascriptBar }, { name: "CSS", icon: CssBar }, { name: "React", icon: ReactIcon }, { name: "SpringBoot", icon: SpringBoot }],
+    tech: [{ name: "HTML", icon: HtmlIcon }, { name: "JavaScript", icon: JavascriptIcon }, { name: "CSS", icon: CssIcon }, { name: "React", icon: ReactIcon }, { name: "SpringBoot", icon: SpringBoot }],
     repo: "https://github.com/Code-Crafters-Events",
     deploy: ""
   }
